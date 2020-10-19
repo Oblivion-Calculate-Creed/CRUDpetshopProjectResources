@@ -19,7 +19,7 @@ It contains a complete set of the expectations and requirements for the project 
 * [Authors](#authors)
 
 ### Extra Resources:
-* All of my extra resources can be found in: https://github.com/Scottynic112/CRUDpetshopProjectResources
+All of my extra resources can be found in: https://github.com/Scottynic112/CRUDpetshopProjectResources
  - Presentation
  - Testing Screenshots
  - Risk Assessment Screenshots
@@ -29,14 +29,14 @@ It contains a complete set of the expectations and requirements for the project 
 ## Brief
 The project will involve concepts from all core training modules; more specifically, this will involve:
 
--Project Management - I have been asked to use Jira. 
--Databases - h2
--Java SE
--Spring Boot
--Front-End Development - HTML, CSS, JavaScript
--Automated Testing
--Continuous Integration
--Cloud Fundamentals
+   * *Project Management - I have been asked to use Jira. 
+   * *Databases - h2
+   * *Java SE
+   * *Spring Boot
+   * *Front-End Development - HTML, CSS, JavaScript
+   * *Automated Testing
+   * *Continuous Integration
+   * *Cloud Fundamentals
 
 To summarise, my task is to create a CRUD application with the utilisation of supporting tools and methodologies. 
 Do to the short time scale of our project some of the requirements were edited.
@@ -45,21 +45,25 @@ Do to the short time scale of our project some of the requirements were edited.
 To achieve my goal, I have decided to create a Petshop application. The user will be able to fill out the form on my designed FrontEnd that creates a card. This card will display all of the information on the pet they wish to advertise. The card will be displayed in a tidy row at the bottom of the page where an update and delete option is found neatly on each card.. Here the user can choose to update the pet through a pop-up window for ease. The delete button will completely remove the animal from the page and database. 
 
 Create Function: A form on FrontEnd with instructions and an obvious submit button. (CREATE)
-   * *Creates an animal with:
+
+Creates an animal with:
    * *Name + Common Name(Breed)*
    * *Type*
    * *Price*
    * *Sex*
    * *Colour*
    * *Date*
+   
 Update function will show a pop-up window which allows you to change the details listed below. (UPDATE)
    * *Name*
    * *Price*
    * *Colour*
    * *Date*
 ...This is due to the fact breed, type and sec are unlikely to change.
-* View and updating their animal is done through a card system for simplcity. (READ and UPDATE)
-* Delete button on each card allowing the user to remove their animal (DELETE)
+
+View and updating their animal is done through a card system for simplcity. (READ and UPDATE)
+
+Delete button on each card allowing the user to remove their animal (DELETE)
 
 If I were to do the project again or with a little extra time I would like to have made a select feature (checkbox or filter system). 
 
@@ -77,7 +81,7 @@ The board has been designed to be simple. Considering I want my plans to be clea
    Once the task is finished then I place it into 'Done'.
 
 ## Risk Assessment
-The risk assessment for this project can be found in full here: https://github.com/Scottynic112/CRUDpetshopProjectResources
+The Risk Assessment file for this project can be found: https://github.com/Scottynic112/CRUDpetshopProjectResources
 
 A screenshot can also be found on: https://github.com/Scottynic112/CRUDpetshopProjectResources
 
@@ -85,7 +89,7 @@ A screenshot can also be found on: https://github.com/Scottynic112/CRUDpetshopPr
 For the testing I used three variants: JUnit, SpringBoot and Mockito. Using these methods tested: Application, Unit and Integration. In total I ran 10 tests, all returning successful with 92.4% coverage. 
 Unit tests run each accessible function in isolation. This means that logic checks can take place to highlight any additions to the code as it would then cause an error. Mockito replicates results for functions that require external data. Whereas Integration tests are tests run on an isolated and pre-determined database (version of) and allows all requests to the database can be tested. 
 
-After downloading a coverage plugin on Spring, I was able to check the coverage to meet my testing requirements. This shows how much of the app is being successfully tested. I have taken three seperate screenshots to show my coverage results and attached them into my GitHub - CRUDpetshopProjectREADME.
+After downloading a coverage plugin on Spring, I was able to check the coverage to meet my testing requirements. This shows how much of the app is being successfully tested. I have taken three seperate screenshots to show my coverage results and attached them onto: https://github.com/Scottynic112/CRUDpetshopProjectResources
 
 ## Front-End Design
 The front-end of the app is finished and fully functioning. I have attached images of the front page and a picture of some example cards onto: https://github.com/Scottynic112/CRUDpetshopProjectResources
